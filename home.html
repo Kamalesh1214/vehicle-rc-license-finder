@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "UTF-8">
+        <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+        <title>
+            Vehicle RC & License Finder
+        </title>
+        <link rel = "stylesheet" href = "/Project-VerifyRC&License/styles/style.css">
+        <script href = "scripts/script.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>Vehicle Document Verification Portal</h1>
+            <p>Search RC Book & Driving License using Vehicle Number</p>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href = "/Project-VerifyRC&License/home.html">Home</a></li>
+                <li><a href = "/Project-VerifyRC&License/verify_rc.html">Verify RC</a></li>
+                <li><a href = "/Project-VerifyRC&License/verify_license.html">Verify License</a></li>
+                <li><a href = "/Project-VerifyRC&License/help.html">Help</a></li>
+            </ul>
+        </nav>
+
+        <main>
+
+            <section>
+                <h2>Enter Vehicle Number</h2>
+
+                <form>
+                    <label for = "vehicleNumber">Vehicle Number:</label><br>
+                    <input type = "text" id = "vehicleNumber" name = "vehicleNumber" placeholder = "e.g., AP09AB1234" required>
+                    <br>
+                    <br>
+                    <button type = "submit">Search</button>
+                </form>
+            </section>
+
+            <br>
+            <br>
+
+            <section>
+                <h2>Vehicle Details</h2>
+
+                <article id = "rc-details">
+                    <h3>RC Book Details</h3>
+                    <p>Owner Name: </p>
+                    <p>Vehicle Model: </p>
+                    <p>Registration Date: </p>
+                    <p>Insurance Status: </p>
+                </article>
+
+                <article id = "license-details">
+                    <h3>Driving License Details</h3>
+                    <p>License Holder: </p>
+                    <p>License Number: </p>
+                    <p>Validity: </p>
+                    <p>License Type: </p>
+                </article>
+            </section>
+
+            <br>
+
+            <aside>
+                <h3>Important Note</h3>
+                <p>Ensure correct format while entering details.</p>
+            </aside>
+
+        </main>
+
+        <footer>
+            <p>&copy; 2026 Vehicle Verification System | All Rights Reserved</p>
+        </footer>
+    </body>
+</html>
