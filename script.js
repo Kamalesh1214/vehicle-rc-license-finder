@@ -62,7 +62,8 @@ document.addEventListener("DOMContentLoaded", function ()
         `;
 
         imageContianer.innerHTML = `
-                <img src = "/Project-VerifyRC&License/images/Kamalesh.png" alt = "Photo of Person" style = "width: 280px; border-radius: 14px; animation: imageFade 0.8s ease forwards; ">
+                <img src = "Kamalesh.png" alt = "Photo of Person" style = "width: 280px; border-radius: 14px; animation: imageFade 0.8s ease forwards; ">
             `;
     }
 });
+
