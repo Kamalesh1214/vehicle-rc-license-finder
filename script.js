@@ -5,6 +5,7 @@ document.addEventListener("DOMContentLoaded", function ()
     const input = document.querySelector("input");
     const rcArticle = document.querySelector("#rc-details");
     const licenseArticle = document.querySelector("#license-details");
+    const imageContianer = document.querySelector("#details-right");
 
     const vehicleRegex = /^[A-Z]{2}[0-9]{2}[A-Z]{1,2}[0-9]{4}$/;
 
@@ -60,6 +61,9 @@ document.addEventListener("DOMContentLoaded", function ()
             <p><strong>Validity:</strong> 2032</p>
             <p><strong>License Type:</strong> LMV</p>
         `;
-    }
 
+        imageContianer.innerHTML = `
+                <img src = "/Project-VerifyRC&License/images/profile.jpg" alt = "Photo of Person" style = "width: 280px; border-radius: 14px; box-shadow: 0 12px 30px rgba(0,0,0,0.2); animation: imageFade 0.8s ease forwards; ">
+            `;
+    }
 });
