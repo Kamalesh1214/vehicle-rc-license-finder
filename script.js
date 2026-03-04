@@ -1,6 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () 
 {
-
     const form = document.querySelector("form");
     const input = document.querySelector("input");
     const rcArticle = document.querySelector("#rc-details");
@@ -44,11 +43,11 @@ document.addEventListener("DOMContentLoaded", function ()
         rcArticle.innerHTML = "<p>Loading RC details...</p>";
         licenseArticle.innerHTML = "<p>Loading License details...</p>";
     }
-
+    
     function showFakeData(vehicleNumber) {
         rcArticle.innerHTML = `
             <h3>RC Book Details</h3>
-            <p><strong>Owner Name:</strong> Raj Kumar</p>
+            <p><strong>Owner Name:</strong> Jonnadula Kamalesh</p>
             <p><strong>Vehicle Model:</strong> Hyundai i20</p>
             <p><strong>Registration Date:</strong> 12-05-2022</p>
             <p><strong>Insurance Status:</strong> Active</p>
@@ -56,14 +55,14 @@ document.addEventListener("DOMContentLoaded", function ()
 
         licenseArticle.innerHTML = `
             <h3>Driving License Details</h3>
-            <p><strong>License Holder:</strong> Raj Kumar</p>
+            <p><strong>License Holder:</strong> Jonnadula Kamalesh</p>
             <p><strong>License Number:</strong> DL-0420110149646</p>
             <p><strong>Validity:</strong> 2032</p>
             <p><strong>License Type:</strong> LMV</p>
         `;
 
         imageContianer.innerHTML = `
-                <img src = "/Project-VerifyRC&License/images/profile.jpg" alt = "Photo of Person" style = "width: 280px; border-radius: 14px; box-shadow: 0 12px 30px rgba(0,0,0,0.2); animation: imageFade 0.8s ease forwards; ">
+                <img src = "/Project-VerifyRC&License/images/Kamalesh.png" alt = "Photo of Person" style = "width: 280px; border-radius: 14px; animation: imageFade 0.8s ease forwards; ">
             `;
     }
 });
