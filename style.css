@@ -184,4 +184,20 @@ footer {
         flex-direction: column;
         margin: 10px 0;
     }
+    #details {
+        flex-direction: column;
+        align-items: center;
+    }
+    #details-left {
+        width: 100%;
+    }
+    #details-right {
+        width: 100%;
+        margin-top: 20px;
+    }
+    #details-right img {
+        width: 90%;
+        max-width: 300px;
+        height: auto;
+    }
 }
