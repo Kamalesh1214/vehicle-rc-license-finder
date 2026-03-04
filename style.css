@@ -22,7 +22,7 @@ ul {
 header {
     background: linear-gradient(270deg, #1e3a8a, #2563eb, #1e3a8a);
     background-size: 600% 600%;
-    animation: gradientMove 8s ease infinite;
+    animation: gradientMove 4s ease infinite;
     color: white;
     padding: 25px;
     text-align: center;
@@ -87,6 +87,38 @@ section {
         transform: translateY(0);
         opacity: 1;
     }
+}
+#details {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+}
+#details-left {
+    flex: 2;
+}
+#details-right {
+    flex: 1;
+    border-radius: 14px;
+    min-height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: imageFade 1s forwards 0.5s;
+}
+@keyframes imageFade {
+    from {
+        opacity: 0;
+        transform: translateY(20px) scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+#details-right:hover {
+    transform: translateX(8px);
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.2);
 }
 input {
     width: 100%;
