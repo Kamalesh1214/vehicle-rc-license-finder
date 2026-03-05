@@ -119,8 +119,8 @@ section {
     }
 }
 #details-right:hover {
-    transform: translateX(8px);
-    box-shadow: 5px 5px 15px rgba(0,0,0,0.2);
+    transform: translateZ(10px);
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.2);
 }
 input {
     width: 100%;
@@ -203,5 +203,6 @@ footer {
         height: auto;
     }
 }
+
 
 
