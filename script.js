@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded", function ()
     }
     
     function showFakeData(vehicleNumber) {
-        if(vehicleNumber == AP09AB1234)
+        if(vehicleNumber === AP09AB1234)
         {
             rcArticle.innerHTML = `
                  <h3>RC Book Details</h3>
@@ -65,7 +65,7 @@ document.addEventListener("DOMContentLoaded", function ()
                 <img src = "Kamalesh.png" alt = "Photo of Person" style = "width: 280px; border-radius: 14px; animation: imageFade 0.8s ease forwards; ">
             `;
         }
-        else if(vehicleNumber == TS07CD5678)
+        else if(vehicleNumber === TS07CD5678)
         {
             rcArticle.innerHTML = `
                  <h3>RC Book Details</h3>
@@ -93,6 +93,7 @@ document.addEventListener("DOMContentLoaded", function ()
         }
     }
 });
+
 
 
 
