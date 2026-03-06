@@ -65,26 +65,6 @@ document.addEventListener("DOMContentLoaded", function ()
                 <img src = "Kamalesh.png" alt = "Photo of Person" style = "width: 280px; border-radius: 14px; animation: imageFade 0.8s ease forwards; ">
             `;
         }
-        else if(vehicleNumber === TS07CD5678)
-        {
-            rcArticle.innerHTML = `
-                 <h3>RC Book Details</h3>
-                 <p><strong>Owner Name:</strong> Nithya</p>
-                 <p><strong>Vehicle Model:</strong> Tata Nexon</p>
-                 <p><strong>Registration Date:</strong> 21-04-2023</p>
-                 <p><strong>Insurance Status:</strong> Active✅</p>
-            `;
-            licenseArticle.innerHTML = `
-                 <h3>Driving License Details</h3>
-                 <p><strong>License Holder:</strong> Nithya</p>
-                 <p><strong>License Number:</strong> DL-04201101498765</p>
-                 <p><strong>Validity:</strong> 2026</p>
-                 <p><strong>License Type:</strong> LMV</p>
-            `;
-            imageContianer.innerHTML = `
-                <img src = "Kamalesh.png" alt = "Photo of Person" style = "width: 280px; border-radius: 14px; animation: imageFade 0.8s ease forwards; ">
-            `;
-        }
         else
         {
             rcArticle.innerHTML = "<p>Vehicle Not Found in Database...</p>";
@@ -93,6 +73,7 @@ document.addEventListener("DOMContentLoaded", function ()
         }
     }
 });
+
 
 
 
