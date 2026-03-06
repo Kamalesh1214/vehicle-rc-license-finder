@@ -48,9 +48,9 @@ document.addEventListener("DOMContentLoaded", function ()
         rcArticle.innerHTML = `
             <h3>RC Book Details</h3>
             <p><strong>Owner Name:</strong> Jonnadula Kamalesh</p>
-            <p><strong>Vehicle Model:</strong> Hyundai i20</p>
+            <p><strong>Vehicle Model:</strong> Hyundai i20🏍️</p>
             <p><strong>Registration Date:</strong> 12-05-2022</p>
-            <p><strong>Insurance Status:</strong> Active</p>
+            <p><strong>Insurance Status:</strong> Active✅</p>
         `;
 
         licenseArticle.innerHTML = `
@@ -66,4 +66,5 @@ document.addEventListener("DOMContentLoaded", function ()
             `;
     }
 });
+
 
