@@ -45,9 +45,7 @@ document.addEventListener("DOMContentLoaded", function ()
     }
     
     function showFakeData(vehicleNumber) {
-        if(vehicleNumber === AP09AB1234)
-        {
-            rcArticle.innerHTML = `
+        rcArticle.innerHTML = `
                  <h3>RC Book Details</h3>
                  <p><strong>Owner Name:</strong> Jonnadula Kamalesh</p>
                  <p><strong>Vehicle Model:</strong> Hyundai i20</p>
@@ -64,15 +62,9 @@ document.addEventListener("DOMContentLoaded", function ()
             imageContianer.innerHTML = `
                 <img src = "Kamalesh.png" alt = "Photo of Person" style = "width: 280px; border-radius: 14px; animation: imageFade 0.8s ease forwards; ">
             `;
-        }
-        else
-        {
-            rcArticle.innerHTML = "<p>Vehicle Not Found in Database...</p>";
-            licenseArticle.innerHTML = "";
-            imageContianer.innerHTML = "";
-        }
     }
 });
+
 
 
 
