@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function ()
             licenseNumber: "DL-0420110149646",
             validity: "2032",
             type: "LMV",
-            image: "images/kamalesh.png"
+            image: "kamalesh.png"
         },
         "TS07CD5678": {
             owner: "Nithya",
@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function ()
             licenseNumber: "DL-0420110149323",
             validity: "2030",
             type: "MCWG",
-            image: "images/nithya.png"
+            image: "nithya.png"
         }
     };
 
