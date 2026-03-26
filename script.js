@@ -86,8 +86,6 @@ document.addEventListener("DOMContentLoaded", function ()
             return;
         }
 
-        localStorage.setItem("lastVehicle", vehicleNumber);
-
         rcArticle.innerHTML = `
             <h3>RC Book Details</h3>
             <p><strong>Owner Name:</strong> ${data.owner}</p>
@@ -105,10 +103,5 @@ document.addEventListener("DOMContentLoaded", function ()
         imageContainer.innerHTML = `
             <img src="${data.image}" alt = "Vehicle Owner" style = "width: 280px; border-radius: 14px; animation: imageFade 0.8s ease forwards; ">
         `;
-    }
-    const last = localStorage.getItem("lastVehicle");
-    if (last && vehicleDB[last]) {
-        input.value = last;
-        showData(last);
     }
 });
